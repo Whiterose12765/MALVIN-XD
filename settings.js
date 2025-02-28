@@ -2,7 +2,7 @@ const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
-    return text === fault ? true : false;
+    return text === fault ? true : true;
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~VgIBTYjB#a5nnTyl7r63JNfUTmODt-5IFjkYVjt2vMfZmtEAfDS0",
@@ -29,7 +29,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "true",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "601117508525",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦",
+OWNER_NAME: process.env.OWNER_NAME || "꧁ঔৣ☬𝐙𝐀𝐘𝐀 𝐅𝐎𝐔𝐑 𝐅𝐈𝐍𝐆𝐄𝐑𝐒☬ঔৣ꧂",
 // add bot owner name
 
 DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✦ɴᴇxᴜs ᴛᴇᴄʜ✦ ɪɴᴄ*",
@@ -77,7 +77,7 @@ AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
 HEART_REACT: process.env.HEART_REACT || "true",
@@ -95,7 +95,7 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
