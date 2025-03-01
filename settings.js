@@ -32,7 +32,7 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "601117508525",
 OWNER_NAME: process.env.OWNER_NAME || "꧁ঔৣ☬𝐙𝐀𝐘𝐀 𝐅𝐎𝐔𝐑 𝐅𝐈𝐍𝐆𝐄𝐑𝐒☬ঔৣ꧂",
 // add bot owner name
 
-DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ✦ɴᴇxᴜs ᴛᴇᴄʜ✦ ɪɴᴄ*",
+DESCRIPTION: process.env.DESCRIPTION || "> *© ꧁ঔৣ☬𝐙𝐀𝐘𝐀 𝐅𝐎𝐔𝐑 𝐅𝐈𝐍𝐆𝐄𝐑𝐒☬ঔৣ꧂*",
 // add bot owner name    
 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/bddvfr.jpg",
@@ -71,7 +71,7 @@ MODE: process.env.MODE || "public",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
