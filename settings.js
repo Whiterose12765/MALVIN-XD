@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : true;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~RxwGhBLQ#cIFgoXfFv-EH2Nd65mAQhDT7xmGl8sBQJDgEYcKKiII",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~UlQgFLBA#-qNrbWY8bIr1LYBIzDfFSpqrjdxDYao-1_cZVsy41mo",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
-BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
+BOT_NAME: process.env.BOT_NAME || "*𝐙𝐀𝐘𝐀 𝐅𝐎𝐔𝐑 𝐅𝐈𝐍𝐆𝐄𝐑𝐒*",
 // add bot name here for menu
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
