@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : true;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~UlQgFLBA#-qNrbWY8bIr1LYBIzDfFSpqrjdxDYao-1_cZVsy41mo",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~5g4E3RYI#l-MgTRbmXl6ARvQIQMUPCV_oXBSfVho2C0vhP4GeMxM",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -14,13 +14,13 @@ PREFIX: process.env.PREFIX || ".",
 BOT_NAME: process.env.BOT_NAME || "*𝐙𝐀𝐘𝐀 𝐅𝐎𝐔𝐑 𝐅𝐈𝐍𝐆𝐄𝐑𝐒*",
 // add bot name here for menu
 
-CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
+CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react   
 
-STICKER_NAME: process.env.STICKER_NAME || "𝐙𝐀𝐘𝐀 ",
+STICKER_NAME: process.env.STICKER_NAME || "𝐙𝐀𝐘𝐀",
 // type sticker pack name  
 
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍🌹💐💮🏵️🎎💥💕💓❤️‍🔥",
 // chose custom react emojis by yourself 
 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
@@ -65,7 +65,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥*",
 // set the auto reply massage on status reply    
 
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 ANTI_LINK: process.env.ANTI_LINK || "true",
